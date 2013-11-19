@@ -1,0 +1,24 @@
+﻿body {
+}
+
+.logo {
+    margin-top: 80px;
+    font-size:30px;
+    box-shadow: 5px 5px 70px #DCDCDC; 
+    border-radius: 45px;
+}
+
+.texto {
+    margin-top: 70px;
+    font-size:30px;
+}
+
+.facebook{
+    box-shadow: 5px 5px 16px #DCDCDC; 
+    border-radius: 10px;
+}
+
+.youtube{
+    box-shadow: 5px 5px 16px #DCDCDC; 
+    border-radius: 10px;
+}

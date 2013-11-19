@@ -1,0 +1,118 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body background="imagens/tela2.jpg" >
+    <form id="form1" runat="server">
+        <div id="container">
+            <div id="row_topo"
+                <div class="col-md-3">
+                        <div class="tabbable"> <!-- Only required for left/right tabs -->
+                            <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                            </ul>
+                            <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                            <p>I'm in Section 1.</p>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                            <p>Howdy, I'm in Section 2.</p>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-9">
+                    <center><img src="imagens/logo_shamah.jpg" class="img-responsive logo" alt="logo_shamah"/></center>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="texto">
+                <center><h2 class="mensagem" style="color:White; text-shadow: -6px 6px 6px #FFFFFF;"">Site em construção...</h2></center>
+                <br />
+                    <center><a href="https://www.facebook.com/BandaShamah?fref=ts" target="_blank"><img src="imagens/facebook2.jpg" alt="facebook" class="facebook"/></a>
+                    <a href="http://www.youtube.com/user/BandShamahOficial" target="_blank"><img src="imagens/youtube2.png" alt="youtube" class="youtube" /></a></center>
+            </div>
+
+            <br />
+            <br />
+
+            <%--<div class="slide">
+                <div class="col-md-1"></div>
+
+                <div class="col-md-10">
+
+                    <div id="carousel-example-generic2" class="carousel" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+                      </ol>
+                 
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="imagens/facebook.jpg" alt="0">
+                        </div>
+                        <div class="item">
+                          <img src="imagens/logo_shamah.jpg" alt="1">
+                        </div>
+                        <div class="item">
+                          <img src="imagens/youtube2.png" alt="2">
+                        </div>
+                        <div class="item">
+                          <img src="imagens/youtube.png" alt="3">
+                        </div>
+    
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-1"></div>
+
+
+        </div>--%>
+             
+        </div>
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    </form>
+</body>
+</html>
